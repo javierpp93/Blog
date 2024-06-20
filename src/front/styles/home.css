@@ -1,28 +1,14 @@
+.background-div {
+    background-color: rgb(198, 217, 231);
+    padding: 20px 0;
+}
+
 .title-home {
+    font-size: 2.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     padding: 20px;
-    font-size: 2.5em; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
-}
-
-.slides-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-    padding: 30px;
-}
-
-.slide {
-    background-color: #f8f9fa;
-    border: 1px solid #dee2e6;
-    border-radius: 5px;
-    padding: 20px;
-    text-align: center;
-}
-
-.slide-image {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
 }
 
 .button-container {
